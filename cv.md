@@ -12,17 +12,17 @@ My goal is to obtain a position as a Front-End Developer. I am a self-taught fro
 I have no experience working as a frontend developer in a company, but I have extensive experience in organizing a team of specialists, as well as working in a team, as well as multitasking skills working as a leading engineer in a large oil company.
 
 ### Skills
-* HTML
-* CSS/SASS/SCSS
-* JavaScript
-* GitHub
-* Gulp
+* __HTML__
+* __CSS/SASS/SCSS__
+* __JavaScript__
+* __GitHub__
+* __Gulp__
 
 ### Education
 * __Rolling Scopes school__ - JS/Front-end course (September,2021 - present)
 * __UDEMY__ - Web Developer 2021 (June,2021 - present)
 * __PASV__ - JavaScript Syntax; HTML, CSS Syntax (February,2021 - May,2021)
-* __Ural State Forestry Engineering University__ - engineer _(1999-2004)
+* __Ural State Forestry Engineering University__ - engineer (1999-2004)
 
 ### Experience
 __PAO "NK-Rosneft, LLC "RN-Remont NPO"__- lead engineer (2004-present)

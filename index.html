@@ -5,8 +5,157 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV(Nadezhda Mironova)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ed20424af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- hgf   
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#contacts" class="menu_link">Contacts</a></li>
+                    <li class="menu_item"><a href="#summary" class="menu_link">Summary</a></li>
+                    <li class="menu_item"><a href="#skills" class="menu_link">Skills</a></li>
+                    <li class="menu_item"><a href="#education" class="menu_link">Education</a></li>
+                    <li class="menu_item"><a href="#experience" class="menu_link">Experience</a></li>
+                    <li class="menu_item"><a href="#languages" class="menu_link">Languages</a></li>
+                    <li class="menu_item"><a href="#code" class="menu_link">Code example</a></li>
+                </ul>
+             </div>
+             <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </nav>
+    </header> 
+
+    <main>
+        <div class="main-wrapper">
+            <section class="about">
+                <div class="avatar">
+                    <div class="photo">
+                        <img src="img/photo_Nadezhda.jpg"  alt="Nadezhda Mironova">
+                    </div>
+                </div>
+                  
+                <div class="info">
+                    <h1 class="name">Nadezhda Mironova</h1>
+                    <h2 class="specialisation">Junior Front-end Developer</h2>
+                    <h4 class="location">Neftekamsk, Russia</h4>
+                    
+                </div>
+            </section>
+
+            <section id="contacts">
+                <h3>Contacts</h3>
+                <ul>
+                    
+                    <li>
+                        <i class="fas fa-envelope-square"></i>
+                        <a href="mailto:nadin22e@gmail.com">nadin22e@gmail.com</a></li>
+                    <li>
+                        <i class="fas fa-phone-square-alt"></i>
+                        <a href="tel:+79177571125">+79177571125</a></li>
+                    <li>
+                        <i class="fab fa-github-square"></i>
+                        <a href="https://github.com/NadinMiro">GitHub</a></li>
+                </ul>
+            </section>
+
+            <section id="summary">
+                <h3>Summary</h3>
+                <p>
+                    My goal is to obtain a position as a Front-End Developer. I am a self-taught frontend developer who will help you implement your project using the most modern approaches in web development. I took several online courses at the PASV programming school, and on the UDEMY platform. At the moment, I am also taking JS/Front-end course at the Rolling Scopes school.
+                    <br /> &nbsp; <br> 
+                    I have no experience working as a frontend developer in a company, but I have extensive experience in organizing a team of specialists, as well as working in a team, as well as multitasking skills working as a leading engineer in a large oil company.
+                </p>
+                    </section>
+
+            <section id="skills">
+                <h3>Skills</h3>
+                <ul class="skills_list">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS/SASS/SCSS</li>
+                        <li>JavascriptGit/Github</li>
+                        <li>Git/Github</li>
+                        <li>Gulp</li>
+                    </ul>
+            </section>
+
+            <section id="education">
+                <h3>Education</h3>
+                <ul class="education_list">
+                    <ul>
+                        <li>Rolling Scopes school - JS/Front-end course (September, 2021 - present)</li>
+                        <li>UDEMY - Web Developer 2021 (June, 2021 - present)</li>
+                        <li>PASV - JavaScript Syntax; HTML, CSS Syntax (February, 2021 - May, 2021)</li>
+                        <li>Ural State Forestry Engineering University - engineer (1999-2004)</li>
+                    </ul>
+            </section>
+
+            <section id="experience">
+                <h3>Experience</h3>
+                <ul class="experience_list">
+                    <ul>
+                        <li>PAO “NK-Rosneft, LLC “RN-Remont NPO”- lead engineer (2004-present)</li>
+                    </ul>
+            </section>
+
+            <section id="languages">
+                <h3>Languages</h3>
+                <ul class="languages_list">
+                    <ul>
+                        <li>English B2 (IELTS certificate,band 6)</li>
+                        <li>Russian (native)</li>
+                    </ul>
+            </section>
+            
+            <div id="code"> 
+                <h3>Code example</h3>
+                <pre><code class="language-javascript">
+                    function average (arr) {
+                    let sum=0;
+                    for (let i=0; i< arr.length && arr.length!==0; i++){
+                    sum=sum+arr[i];
+                    }
+                    if (arr.length===0){
+                    return 0;
+                    }
+                    return sum/arr.length;
+                }
+                console.log(average ([1,2,3,4])); //2.5
+                    </code></pre>
+            </div>
+            <section id="projects">
+                <h3>Projects</h3>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <h4 class="projects__item-title">UBER_project</h4>
+                        <p class="projects__item-text">Landing-page "Uber" (HTML/CSS/SCSS/Bootstrap 4/JS)</p>
+                        <div class="photo_Uber">  
+                            <a href="https://nadinmiro.github.io//" target="_blank"><img src="img/UBER.jpg"  alt="landing-page Uber"></a>
+                        </div>
+                    </li>
+               
+            </section>
+        </div> 
+    </main>
+
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <a class="rsschool" href="https://rs.school/js/" target="_blank"><img src="img/rs_school_icon.svg" alt="rs.school" width="73" height="26"/></a>
+                <h5>© 2021  </h5>
+                <a class="github" href="https://github.com/NadinMiro// " target="_blank"><img class="github-icon" src="img/ghub.svg" alt="GitHub" width="26" height="26" /></a>
+                
+            </div>
+        </footer>
+        <script 
+          src="script.js"></script>
 </body>
 </html>
